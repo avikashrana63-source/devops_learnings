@@ -1,0 +1,32 @@
+Basic Setup commnads (First Time Only) ........................>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1.  Sets your identity for commit ######
+    git config --global user.name "Your Name"
+    git config --global user.email "your@email.com"
+
+2.  Initialize Git in your project folder #######
+    git init
+
+3.  OR clone an existing repo: #######
+    git clone <repo-url>
+
+4.  Check changes ######
+    git status
+
+5.  Add all files ######
+    git add .
+
+6.  Save changes ######
+    git commit -m "your message"
+
+Connect to GitHub ......................................>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+7. Upload code to GitHub
+   git remote add origin <repo-url>
+   git push -u origin main
+
+8. Get latest changes
+   git pull
+
+9. Send your changes
+   git push

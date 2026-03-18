@@ -1,0 +1,47 @@
+1.What is GitHub?
+
+GitHub is a cloud-based platform that stores your Git repositories online.
+Git = tool (runs on your system)
+GitHub = place (where your code is stored on the internet
+
+
+2.Why we use GitHub
+
+2.1 Remote storage (backup)
+    Your code is saved online — not just on your PC 
+    No fear of data loss
+
+2.2 Team collaboration
+    Multiple developers can:
+    Work on same project
+    Share code
+    Review each other’s work
+
+2.3 Pull Requests
+    You make changes
+    Create a Pull Request
+    Team reviews → then merges
+
+2.4 Code history & tracking
+    You can:See all commits
+    Track who changed what
+    Rollback anytime
+
+2.5 DevOps & CI/CD integration
+    GitHub connects with tools like:
+    Jenkins
+    Docker
+
+2.6 Open source & portfolio
+    You can explore projects
+    Contribute to open source
+
+
+3.How GitHub repository creation
+  1. First, open GitHub in your browser and log in to your account.
+  2. After logging in, click on the “+” icon in the top right corner and choose “New repository.”
+  3. Now, enter a repository name. This is usually your project name. You can also add a short description.
+  4. Next, choose the visibility: Public means anyone can see your code, and Private means only you can access it.
+  5. Then, select “Add a README file.” This file helps describe your project.
+  6. After filling all details, click on the “Create repository” button.
+

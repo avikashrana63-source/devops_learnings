@@ -1,0 +1,46 @@
+Branching & Merging ...................................................................................>
+
+1. What is a Branch?
+
+   A branch is like a separate working line in your project.
+   Default branch = main
+   You create new branches to work safely without touching main code
+
+   Real-life example
+   main → stable project
+   feature-login → you build login feature
+   bug-fix → fix errors
+
+
+2.  Why Branching is used
+
+    Work on features safely
+    Avoid breaking main code
+    Multiple developers can work together
+    Easy testing before final merge
+
+3. What is Merge?
+
+   Merge = combining one branch into another Example:
+   feature-login ➜ merged into ➜ main
+   
+   
+Branching and Merging Commands .........................................>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1. Shows all branches in your project
+   git branch
+
+2. Creates a new branch
+   git branch [new-branch] you are still on main (not switched yet)
+
+3. Switches to another branch
+   git checkout feature-login Now you are working inside that branch
+
+4. git checkout -b feature-login  Shortcut (create + switch in one command)
+
+5. Merges another branch into your current branch
+   git checkout main
+   git merge feature-login
+
+6. Shows commit history of current branch
+   git log

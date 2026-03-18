@@ -1,0 +1,32 @@
+Introduction ...................................................................>
+
+
+1. To understand  committing or merging, you should know:
+   What lines were added/removed and Which files changed git diff
+
+2. To track history
+   Projects grow over time, and many people contribute.
+   git log helps you: See all commits , Know who made changes and Understand project evolution
+
+commands ..........................................................................>
+
+
+1. Shows commit history 
+   (git log)
+
+2. Shows difference between changes 
+   (git diff)
+
+3. Compare staged vs unstaged 
+   (git diff --staged)
+
+4. Compare branches 
+   (git diff main feature-login)
+
+5. Shows details of a specific commit
+   (git show <commit-id>)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>...................>>>>>>>>>>>>>>>>
+
+
+

@@ -1,0 +1,24 @@
+Advanced Git Commands............................>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1. (git rebase) Why: Clean history (used instead of merge)
+
+2. (git stash) Why: Save work temporarily without committing
+
+3. (git cherry-pick) Why: Pick a specific commit from another branch
+   Example: git cherry-pick <commit-id>
+
+4. (git reset) Why: Undo commits (dangerous but powerful)
+   Example: git reset --soft HEAD~1  (soft → keeps changes)
+            git reset --hard HEAD~1  (hard → deletes changes)
+
+5. (git revert) Why: Safely undo a commit (used in teams) 
+   Example: git revert <commit-id> (Creates a new commit (safe for shared repos)
+
+6. (git fetch) Why: Get updates without merging
+   Example: git fetch origin (Safe way to inspect changes first)
+
+7. (git tag) Why: Mark versions (releases)
+   Example: git tag v1.0
+           git push origin v1.0 
+8. (git branch -d) Why: Delete branch after merge
+    Example: git branch -d feature-branch

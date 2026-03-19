@@ -1,0 +1,50 @@
+*******************************************************************************************
+What is Package Management?
+
+A package = software (like nginx, git, docker)
+A package manager = tool to install/manage software
+
+Why it is used?
+
+Install tools (git, docker, node)
+Update system
+Fix dependencies automatically
+Remove unused software
+
+
+*******************************************************************************************
+
+What are Ubuntu & RHEL?
+Ubuntu
+
+Debian-based Linux distribution
+Free & open-source
+Very popular for beginners and cloud
+
+Red Hat Enterprise Linux
+
+Enterprise-level Linux by Red Hat
+Paid (subscription-based)
+Used in companies & production servers
+
+.......Package Manager.......
+Ubuntu → apt
+RHEL → yum / dnf
+
+*******************************************************************************************
+
+COMMANDS FOR UBUNTU.............
+
+1. Update package list
+   [sudo apt update]
+
+2. Upgrade system
+   [sudo apt upgrade]
+
+3. Install package
+   [sudo apt install nginx]
+
+4. Remove package
+   [sudo apt remove nginx]
+
+

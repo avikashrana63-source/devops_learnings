@@ -1,0 +1,42 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What is SSH?
+SSH (Secure Shell) = a protocol to connect to another computer securely over network
+Think: You control a remote server from your laptop 
+
+Why SSH is used?
+Connect to cloud servers (AWS, Azure, etc.)
+Deploy applications
+Run commands remotely
+Manage production systems
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SSH Basic Command:
+1. (ssh user@host)
+   Example: [ssh ubuntu@192.168.1.10] Connect to remote server
+   First time connection --> It will ask: yes/no → type yes or Then enter password
+...........................................................................................
+2. Key-Based Authentication Instead of password, we use SSH keys (more secure)
+   1.1 (ssh-keygen) Creates: Private key → ~/.ssh/id_rsa
+                         Public key → ~/.ssh/id_rsa.pub
+
+   1.2 (ssh-copy-id user@host) Copy key to server
+
+   1.3 (ssh user@host) Login without password
+...........................................................................................
+3. File Transfer using scp 
+   1.1 (scp file.txt user@host:/home/user/) Copy file to server
+   
+   1.2 (scp user@host:/home/user/file.txt .) Copy from server
+
+   1.3 ( scp -r folder/ user@host:/home/user/)Copy folder
+...........................................................................................
+4. File Sync using rsync
+   1.1 (rsync -av file.txt user@host:/home/user/) Basic command
+
+   1.2 (rsync -av folder/ user@host:/home/user/) Sync folder
+
+   1.3 (rsync -av --delete folder/ user@host:/home/user/) Sync with delete
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+
+

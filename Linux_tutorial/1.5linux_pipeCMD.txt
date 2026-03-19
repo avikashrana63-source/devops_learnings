@@ -1,0 +1,41 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+1. What is Redirection in Linux?
+Redirection means sending output or input of a command to somewhere else (like a file instead of terminal).
+
+
+Types of Redirection
+1. Output Redirection (>)
+
+echo "Hello DevOps" > file.txt [Creates file.txt and writes content]
+
+2. Append Output (>>)
+
+echo "New Line" >> file.txt [Adds content at the end (no overwrite)]
+
+3. Input Redirection (<)
+ 
+wc -l < file.txt [Takes input from file instead of keyboard]
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+2. What is Pipe (|)?
+Pipe (|) sends output of one command as input to another command 
+Basic Syntax: [command1 | command2]
+
+
+1. Count files [ls | wc -l]
+
+2. Search inside output [ps aux | grep nginx]
+
+3. [cat file.txt | sort] (sort data)
+
+4. [cat file.txt | sort | uniq] (remove duplicates)
+
+5. [cat file.txt | grep "error" | wc -l] Count how many times "error" appears
+
+6. [netstat -tulnp | grep 8080] Check open ports
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

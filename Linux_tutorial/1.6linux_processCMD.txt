@@ -1,0 +1,58 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. What is a Process?
+
+A process = any program that is currently running.
+
+Example:
+
+Running nginx → process
+
+Running node app.js → process
+
+Even your terminal → process
+
+Each process has a PID (Process ID).
+
+
+Why Process Management is Used?
+Monitor running apps
+Kill stuck/hanging processes
+Check CPU & memory usage
+Run apps in background
+Debug production issues
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+COMMANDS:
+
+1. ps (Process Status) 
+   [ps aux] Shows all running processes
+
+2. top (Live Monitoring)
+   [top] Real-time process view and Like Task Manager in Windows
+
+3. htop (Better UI)
+   [htop] Colorful + easy UI
+
+4. Find Specific Process
+   Using grep [ps aux | grep nginx] Find nginx process
+
+5. Using pgrep
+   [pgrep nginx]Directly gives PID
+
+6. Kill by PID
+   [kill 1234] Gracefully stops process
+
+7. Force Kill
+   [kill -9 1234] Forcefully stops (use carefully)
+
+8. Kill by Name
+   [pkill nginx]
+
+9. Check memory usage
+   [free -m]
+
+10. Check CPU load
+    [uptime]

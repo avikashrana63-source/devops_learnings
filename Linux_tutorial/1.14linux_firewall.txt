@@ -1,0 +1,28 @@
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+What is System Security?
+System security = protect your server from:
+Unauthorized access
+Attacks (brute force, bots)
+Data leaks
+
+Why it is used?
+Secure production servers
+Protect SSH access
+Block unwanted traffic
+Prevent hacking attempts
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Firewall (Traffic Control)
+Firewall = gatekeeper
+Controls which traffic is allowed or blocked
+
+ufw (Easy Firewall – Ubuntu)
+1.1 Enable firewall (sudo ufw enable)
+1.2 Allow SSH (sudo ufw allow ssh)
+1.3 Allow port  (sudo ufw allow 80)
+1.4 Deny port (sudo ufw deny 21)
+1.5 Check status (sudo ufw status)
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+

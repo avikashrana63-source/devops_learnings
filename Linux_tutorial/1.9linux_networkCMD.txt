@@ -1,0 +1,58 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+What is Networking in Linux?
+
+Networking = how systems talk to each other
+
+Example:
+Your app → server
+Server → database
+CI/CD → remote machine
+
+
+Why these commands are used?
+
+Check connectivity
+Debug server issues
+Test APIs
+Monitor ports & services
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+COMMANDS:
+
+1. ping → Check Connectivity
+   [ping google.com]
+   what it does?
+   Sends packets to server
+   Checks if server is reachable
+
+2. ifconfig / ip → Check IP Address
+   [ip a] [ifconfig]
+   What it shows?
+   IP address
+   Network interfaces
+   MAC address
+
+3. netstat / ss → Check Ports & Connections
+   [ss -tulnp] [netstat -tulnp]
+   What it shows?
+   Open ports
+   Running services
+   Listening app
+
+4. curl → Test APIs / URLs
+   [curl http://example.com]
+   What it does?
+   Sends request to URL
+   Shows response
+
+
+5. wget → Download Files
+   [wget https://example.com/file.zip]
+   What it does?
+   Downloads file from internet
+

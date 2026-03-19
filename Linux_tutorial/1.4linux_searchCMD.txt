@@ -1,0 +1,34 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1. grep (Search inside files) Used to find specific text/pattern inside files
+   Basic Syntax [grep "text" filename]
+  
+   Example: [grep "error" app.log] Finds all lines containing "error"
+   Example: [grep -i "error" app.log] Case insensitive search
+   Example: [grep -r "error" /var/log] Search recursively in directory
+   Example: [grep -n "error" app.log] Shows line numbers
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2. find (Search files & directories) Used to find files based on name, size, type
+   
+   Example: [find /home -name "file.txt"]
+   Example: [find /var/log -name "*.log"]
+   Example: [find / -type d -name "nginx"] Find directories only
+   Example: [find / -size +100M] Files bigger than 100MB
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+3. locate (Fast search) Faster than find (uses database)
+   
+   Example: [locate nginx.conf]
+   
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+4. which (Command location) Finds where a command is installed
+   
+   Example: [which python] Output: (/usr/bin/python)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+   

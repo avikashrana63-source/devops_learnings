@@ -1,0 +1,38 @@
+Linux basic commands ...................................>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1.1 File & Directory Commands
+
+1. (pwd)  Use: Show current directory 
+
+2. (ls) Use: List files & folders
+   [ls, ls -a, ls -l] (-l → detailed view or -a → hidden files)
+
+3. (cd) Use: Change directory
+   [cd /home/user ,  cd .. , cd ~ ]  Navigate between folders
+
+4. (mkdir) Use: Create directory
+   [mkdir myfolder] Create project folders
+
+5. (rmdir) Use: Remove empty folder
+   [rmdir myfolder] 
+
+6. (rm) Use: Delete files/folders
+   [rm file.txt, rm -r folder, rm -rf folder] -rf (permanent delete)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1.2 File Operations
+
+1. (touch) Use: Create empty file
+   
+2. (cp) Use: Copy files/folders
+   [cp file.txt backup.txt, cp -r folder1 folder2]
+
+3. (mv) Use: Move or rename
+   [mv file.txt newfile.txt, mv file.txt /home/user/]
+
+4. (cat) Use: View file content
+   [cat file.txt]
+
+5. (less) Use: View large files
+   [less file.txt] Scroll safely (better than cat)

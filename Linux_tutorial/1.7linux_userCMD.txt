@@ -1,0 +1,47 @@
+###########################################################################################
+What is User & Group Management?
+User
+A user is a person or service that can log into the system.
+Group
+A group is a collection of users.
+
+
+###########################################################################################
+
+Commands :
+
+1.Create User → useradd
+  [useradd devuser]Creates user devuse
+
+2.Set Password → passwd
+  [passwd devuser]Set password for user
+
+3.Modify User → usermod
+  [usermod -aG developers devuser]Adds devuser to developers group
+  [usermod -l newname oldname]Change username
+
+4.Delete User → userdel
+  [userdel devuser]
+
+5.Create Group → groupadd
+  [groupadd developers]Creates group
+
+6.Verify group
+  [cat /etc/group]
+
+###########################################################################################
+
+
+Real Use Case 
+You have a project folder:
+[/var/www/app]
+
+You want only developers to access it.
+groupadd devteam
+usermod -aG devteam devuser
+chown -R :devteam /var/www/app
+chmod -R 770 /var/www/app
+
+
+
+

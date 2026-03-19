@@ -1,0 +1,64 @@
+What is Linux?
+
+Linux is an open-source operating system (like Windows or macOS), but way more powerful and flexible.
+
+Technically:
+
+Linux = Kernel (the core that talks to hardware)
+
+With tools + apps = Linux OS (Distribution) like Ubuntu, CentOS, etc.
+
+
+
+Linux File Hierarchy (with Real Uses)
+
+Linux uses a tree structure, starting from: ( / )
+Everything lives under this root. Now let’s go directory by directory with what it stores + when YOU use it
+
+1. / (Root Directory)The top-level directory and all other folders exist inside it
+
+2. /home  What it stores: User personal files, projects, downloads
+
+3. /root  What it stores: Home directory of root user (admin)
+
+4. /etc   What it stores: System configuration file Examples:
+/etc/passwd        → user info
+/etc/ssh/sshd_config → SSH settings
+/etc/nginx/nginx.conf → web server config
+
+5. /var   What it stores: Logs, databases, variable data Examples:
+/var/log/syslog
+/var/log/nginx/
+/var/lib/mysql/
+
+6. /bin  What it stores: Basic commands needed by all users Examples:
+ls, cp, mv, cat
+
+7. /sbin What it stores: System/admin commands Examples:
+reboot, shutdown, iptables
+
+8. /usr  What it stores: Installed software, libraries, binaries Examples:
+/usr/bin/
+/usr/lib/
+/usr/share/
+
+9. /tmp What it stores: Temporary files Apps store temporary data and Gets cleaned automatically
+
+10./dev What it stores: Device files (hardware representation) Examples:
+/dev/sda → hard disk
+/dev/null → black hole
+
+11./proc What it stores: System and process info (virtual files) Examples:
+/proc/cpuinfo
+/proc/meminfo
+
+12./boot What it stores: Bootloader files (system startup) Used when system boots and You usually don’t touch it
+
+13. /media & /mnt What they store: Mounted devices (USB, external drives) Examples:
+/media/usb
+/mnt/data
+
+14. /opt What it stores: Optional/custom software and Install third-party apps manually Example:
+/opt/tomcat
+
+15. /run What it stores: Runtime data (temporary system info) and Stores process IDs, system state
